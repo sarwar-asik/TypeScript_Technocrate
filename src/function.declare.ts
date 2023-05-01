@@ -22,6 +22,8 @@ const person:{
     balance:number,
     addBalance(money:number):number,
     detail(money:number):void
+    // void  for dont return /////
+    
 } ={
     name :"Mezba vai",
     balance :10000,
