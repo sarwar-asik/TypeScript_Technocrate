@@ -1,0 +1,27 @@
+{
+  "name": "m2_explore_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarwar-asik/TypeScript_Technocrate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarwar-asik/TypeScript_Technocrate/issues"
+  },
+  "homepage": "https://github.com/sarwar-asik/TypeScript_Technocrate#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
