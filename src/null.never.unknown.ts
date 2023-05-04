@@ -23,8 +23,7 @@ CarSpeed("20 jas ")
 
 
 function throwError(message:string):never{
-
-    throw new Error("Error is mortal")
+    throw new Error(message)
 }
 
 throwError("New error throw kortesi")
