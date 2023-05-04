@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sarwar-asik/TypeScript_Technocrate#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
