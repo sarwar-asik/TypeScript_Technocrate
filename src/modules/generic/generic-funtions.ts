@@ -31,22 +31,22 @@ const result6  =createArray3<string,{name:string,roll:number}>("allu",{name:"",r
 
 
 
-const cruss ="w kathrina"
+// const cruss ="w kathrina"
 
-const myInfo ={
-    name:"Evantu",
-    age:200,
-    salary:3000
+// const myInfo ={
+//     name:"Evantu",
+//     age:200,
+//     salary:3000
 
-}
+// }
 
-// const newInfo ={...myInfo}
+// // const newInfo ={...myInfo}
 
-const IandCruss =<T>(myInfo:T)=>{
-    const crush = "www kate"
-    const newData ={...myInfo,crush}
-    return newData
-}
+// const IandCruss =<T>(myInfo:T)=>{
+//     const crush = "www kate"
+//     const newData ={...myInfo,crush}
+//     return newData
+// }
 
-const result7= IandCruss(myInfo)
-// result7.age
+// const result7= IandCruss(myInfo)
+// // result7.age
