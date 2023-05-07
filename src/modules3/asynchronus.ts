@@ -8,10 +8,10 @@ interface ITodoType {
 }
 
 const getToDo = async (): Promise<ITodoType> => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-  const data = await response.json()
+  const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  const data = await response.json();
 
-  return data
+  return data;
 };
 
 const getToDoData = async (): Promise<void> => {
