@@ -15,25 +15,30 @@ type AreaNumber = {
 type VolumeType = {
   height: number;
   width: string;
-  depth:number
+  depth: number;
 };
 
-type Area<T> ={
-    // [key in keyof VolumeType] : string
-    // [key in keyof VolumeType] : VolumeType[key]
-   readonly [keysss in   keyof T] :T[keysss]
-}
+type Area<T> = {
+  // [key in keyof VolumeType] : string
+  // [key in keyof VolumeType] : VolumeType[key]
+  readonly [keysss in keyof T]: T[keysss];
+};
 
-const area2 :Area<{name:string,width:number,height:number,depth:boolean}> ={
-    name:"Volume count",
-    width:20,
-    height:30,
-    depth:true
-}
+const area2: Area<{
+  name: string;
+  width: number;
+  height: number;
+  depth: boolean;
+}> = {
+  name: "Volume count",
+  width: 20,
+  height: 30,
+  depth: true,
+};
 
 type AreaReadOnly = {
- readonly height: number;
- readonly width: number;
+  readonly height: number;
+  readonly width: number;
 };
 
 const rectangleArea: AreaReadOnly = {
