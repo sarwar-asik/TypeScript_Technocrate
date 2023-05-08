@@ -72,5 +72,4 @@ class Car3 extends VehicleClass {
     stopEngine(): void {
         console.log('this is stop engine')
     }
-
 }
