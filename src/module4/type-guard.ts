@@ -31,7 +31,7 @@ function getUser(user: NormalUserType | AdminUserType) {
   }
 }
 
-const normalUser1: NormalUserType = { name: "Mr Gillu" };
+const normalUser1: NormalUserType = { name: "Mr Gillu" }
 const adminUser1: AdminUserType = { name: "Mr Tillu", role: "admin" };
 
 console.log(getUser(normalUser1).green.bold);

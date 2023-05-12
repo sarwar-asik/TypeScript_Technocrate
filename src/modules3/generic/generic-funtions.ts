@@ -27,6 +27,7 @@ const createArray3 =<X,Y> (params1:X,param2:Y):[X,Y] =>{
 };
 
 const result5 = createArray3<string,number>("Esmihan",22)
+
 const result6  =createArray3<string,{name:string,roll:number}>("allu",{name:"",roll:33})
 
 
